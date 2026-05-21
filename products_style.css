@@ -1,0 +1,152 @@
+/* إعدادات عامة */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------------------- ثيمات البطاقة الشخصية (أحمد وباسم) ------------------- */
+
+/* الثيم الأحمر (لأحمد) */
+.theme-red {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    color: white;
+}
+
+/* الثيم الفضي (لباسم) */
+.theme-silver {
+    background: linear-gradient(135deg, #e0e0e0, #ffffff, #bdbdbd);
+    color: #333;
+}
+
+.profile-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid rgba(255,255,255,0.5);
+    margin-bottom: 20px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* --- تصميم الأزرار والأيقونات --- */
+
+.social-btn {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+}
+
+/* تصميم خشبي (Wood Style - لأحمد) */
+.icon-wood {
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    background-color: #8B5A2B; /* لون بني خشبي */
+    color: #fff;
+    border: 2px solid #5C3A21;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+}
+
+/* تصميم ثلجي/زجاجي (Ice Style - لباسم) */
+.icon-ice {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: #004466;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.8), 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.social-btn:hover {
+    transform: scale(1.05);
+}
+
+.vcard-btn {
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* ------------------- ثيم وتنسيقات المنيو ------------------- */
+
+.theme-dark-gold {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.menu-header {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #000;
+    border-bottom: 3px solid #d4af37; /* لون ذهبي */
+}
+
+.menu-header h1 {
+    color: #d4af37;
+    margin: 0;
+}
+
+.menu-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.category-title {
+    border-bottom: 1px dashed #d4af37;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    color: #d4af37;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+}
+
+.item-details h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+}
+
+.item-details p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #d4af37;
+    white-space: nowrap;
+    margin-right: 15px;
+}
